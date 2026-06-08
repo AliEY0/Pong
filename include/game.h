@@ -14,7 +14,11 @@
 #include <time.h>
 
 #define SCREEN_WIDTH 500
-#define SCREEN_HEIGHT 500
+#define SCREEN_HEIGHT 250
+
+//struct Player player_left;
+//struct Player player_right;
+//struct Ball ball;
 
 
 void render_board();
