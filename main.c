@@ -2,7 +2,7 @@
 #include "include/game.h"
 
 int main() {
-    render_board();
+    render_game();
     return 0;
 }
 
