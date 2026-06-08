@@ -4,7 +4,9 @@ struct Ball {
     int x_pos;
     int y_pos;
     int width;
-    int height;      
+    int height;     
+    int x_v;
+    int y_v; 
 };
 
-void init_ball(struct Ball *ball, int x_pos, int y_pos, int width, int height);
+void update_ball(struct Ball *ball);
