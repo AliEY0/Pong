@@ -8,5 +8,3 @@ struct Player {
     int x_v;
     int y_v; 
 };
-
-
